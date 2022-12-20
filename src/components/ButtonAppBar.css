@@ -1,0 +1,27 @@
+#search-text{
+    background-color: white;
+    border-radius: 6px;
+    /* padding-right: 246px; */
+    margin-right: 202px;
+    border: 0px;
+    /* width: 400px;     */
+}
+.SearchText{
+    margin-right: 650px;
+    background-color: white;
+    border-radius: 6px;
+    border: 0px;
+} 
+#search-icon{
+    
+    /* top: 12px;
+  left: 15px; */
+}
+
+.ToolBar{
+    background-color: rgb(198, 239, 62);
+}
+#note-icon{
+    margin-right: 10px;
+}
+

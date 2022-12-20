@@ -1,0 +1,90 @@
+.signUpContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUpNames{
+    /* margin: 20px; */
+    /* width: 70vh; */
+    /* height: 40px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    /* align-items: center; */
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.sign-up-email{
+    /* margin: 20px; */
+    /* width: 70vh; */
+    /* height: 40px; */
+    width: 100%;
+    display: flex;
+    /* display: flex; */
+    flex-direction: row; 
+    align-items: center;
+}
+
+.sign-up-username{
+    /* margin: 20px; */
+    /* width: 70vh; */
+    /* height: 40px; */
+    width: 100%;
+    display: flex;
+    /* display: flex; */
+    flex-direction: row; 
+    align-items: center;
+}
+#first-name{
+    width: 45%;
+}
+#last-name{
+    width: 45%;
+}
+#password{
+    width: 100%;
+}
+#confirm-password{
+    width: 100%;
+}
+
+.email-id{
+    width: 100%;
+}
+
+.username{
+    width: 100%;
+}
+
+.error{
+    color: red;
+}
+
+.sign-up-password{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#sign-up-card{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3%;
+}
+
+.SignUpButton{
+    padding: 5px;
+}

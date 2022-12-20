@@ -1,0 +1,53 @@
+.NoteDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px 10px;
+    border: 1px solid lightslategrey;
+    border-radius: 2px;
+    width: 191px;
+    height: auto;
+    margin: 34px;
+}
+
+.CardNoteList{
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 40px; */
+    flex-direction: row;
+    /* margin: 20px; */
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-items: center; */
+}
+
+.NoteList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding: 12px;
+}
+
+#note-text{
+    padding-left: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.CardNoteData{
+    height: 80%;
+    min-height: 80%;
+}
+
+.CardNoteBottomTools{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}

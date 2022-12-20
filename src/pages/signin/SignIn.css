@@ -1,0 +1,69 @@
+.SignInContainer{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.SignInNames{
+    /* margin: 20px; */
+    width: 70%;
+    /* height: 40px; */
+    display: flex;
+    flex-direction: column;
+    /* display: flex;
+    flex-direction: row; */
+    justify-items: center;
+    /* justify-content: center; */
+}
+
+
+#sign-in-card{
+
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    padding:50px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: #E7FDFF;
+    }
+    .SignInContainer{
+        margin: 0%;
+        width:100%;
+    }
+
+    
+
+  }
+
+  @media only screen and (min-width: 768px) and (max-width:1024px) {
+    body {
+      background-color: gray;
+    }
+    .SignInContainer{
+        margin: 0%;
+        width:100%;
+        height: 100%;
+    }
+
+    #sign-in-card{
+        width: 100%;
+        height: 1077px;
+        justify-content: space-evenly;
+    }
+
+  }
+  
+@media only screen and (min-width: 1025px) {
+    /* body {
+      background-color: lightgreen;
+    } */
+    
+  }

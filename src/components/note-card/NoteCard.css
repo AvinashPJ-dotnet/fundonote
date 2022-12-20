@@ -1,0 +1,136 @@
+#take-note {
+  width: 40%;
+  margin-left: 417px;
+  margin-top: 69px;
+}
+
+#take-note-text {
+  font-size: medium;
+  width: 70%;
+}
+
+#create-icon {
+  color: black;
+}
+
+#take-note-bottom-button{
+    color: black;
+}
+
+#color-lens-choice{
+    height: 40px;
+    width: 40px;
+    /* background-color: black; */
+    border-radius: 34px;
+}
+
+.TakeNoteDiv {
+  display: flex;
+}
+
+.BtnCreateIcon {
+  color: black;
+  /* height: 24px;
+  width: 8px; */
+}
+
+.NoteCard {
+  align-items: center;
+  width: 100%;
+  /* margin-left: 339px;
+    margin-top: 100px; */
+}
+
+.Note {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+}
+
+.NoteIcons {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-left: 26px; */
+  padding: 21px;
+}
+
+.NoteClose {
+  /* width: 30%;
+    /* padding: 28px; */
+  /* margin-left: 105px; */
+  /* width: 70%; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* margin-left: 26px; */
+  /* padding: 21px; */
+
+  margin-left: 95px;
+  width: 25%;
+}
+
+.NoteBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.CardContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Pinned {
+  color: blue;
+  height: 38px;
+  width: 38px;
+  border-radius: 20px;
+}
+
+.UnPinned {
+  color: black;
+  height: 38px;
+  width: 38px;
+  border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #E7FDFF;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width:767) {
+  body {
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+  body {
+    background-color: gray;
+  }
+
+  #take-note{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+}
+
+@media only screen and (min-width: 1025px) {
+  /* body {
+    background-color: lightgreen;
+  } */
+}
